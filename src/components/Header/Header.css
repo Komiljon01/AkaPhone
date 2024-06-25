@@ -1,0 +1,133 @@
+#header {
+  height: 110px;
+  padding: 20px 0;
+  box-shadow: 0px 16px 25px -38px rgba(0, 0, 0, 0.8);
+}
+
+.header-logo-text h3 {
+  font-size: 17px;
+  color: #3061dd;
+}
+
+.header-logo-text h3:hover {
+  color: #3061dd;
+}
+
+.header-logo-text p {
+  font-size: 14px;
+  margin-top: 2px;
+  color: #3d3d3d;
+}
+
+.header-lists a {
+  color: gray;
+}
+
+.header-lists a:hover {
+  color: #333;
+}
+
+.header-lists a:focus {
+  color: #3d3d3d;
+}
+
+.header-order p {
+  font-weight: 600;
+}
+
+.header-order a {
+  color: #eb4d4d;
+  border: 1px solid #eb4d4d;
+  padding: 10px 25px;
+  font-weight: 600;
+  font-size: 14px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header-order a:hover {
+  background-color: #eb4d4d;
+  color: #fff;
+}
+
+.card-icon {
+  color: #6bc1e6;
+  font-size: 30px;
+  transition: color 0.3s ease;
+}
+
+.card-icon:hover {
+  color: #eb4d4d;
+}
+
+#header #close-menu,
+#header #open-menu {
+  display: none;
+  font-size: 20px;
+}
+
+@media (max-width: 1070px) {
+  .menubar {
+    display: flex;
+    position: fixed;
+    width: 50%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: -1px 0 15px 1px rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    z-index: 100;
+  }
+
+  .show {
+    display: flex;
+  }
+
+  .hide {
+    transform: translateX(0);
+  }
+
+  .header-lists-wrapper,
+  .header-order-wrapper,
+  .navbar-links-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  #header #close-menu,
+  #header #open-menu {
+    display: block;
+  }
+
+  #header #close-menu {
+    position: absolute;
+    top: 32px;
+    right: 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  .menubar {
+    width: 70%;
+  }
+}
+
+@media (max-width: 370px) {
+  #header {
+    height: 85px;
+  }
+  .header-logo-text {
+    display: none;
+  }
+  .menubar {
+    width: 100%;
+  }
+}
