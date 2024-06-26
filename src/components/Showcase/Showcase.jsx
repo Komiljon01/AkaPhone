@@ -1,7 +1,9 @@
 import { Carousel } from "antd";
 import "./Showcase.css";
-import watch from "../../assets/images/smart_watch.png";
 import { GrFormNextLink } from "react-icons/gr";
+import amazfitWatch1 from "../../assets/images/amazfit-watch1.png";
+import amazfitWatch2 from "../../assets/images/amazfit-watch2.png";
+import amazfitWatch3 from "../../assets/images/amazfit-watch3.png";
 
 function Showcase() {
   return (
@@ -22,19 +24,19 @@ function Showcase() {
           <div className="showcase-slider">
             <Carousel draggable autoplay>
               <div className="showcase__slider-item">
-                <img src={watch} alt="" />
+                <img src={amazfitWatch2} alt="showcase slider image" />
                 <a href="#">
                   Смарт часы AmazFit <GrFormNextLink />
                 </a>
               </div>
               <div className="showcase__slider-item">
-                <img src={watch} alt="" />
+                <img src={amazfitWatch1} alt="showcase slider image" />
                 <a href="#">
                   Смарт часы AmazFit <GrFormNextLink />
                 </a>
               </div>
               <div className="showcase__slider-item">
-                <img src={watch} alt="" />
+                <img src={amazfitWatch3} alt="showcase slider image" />
                 <a href="#">
                   Смарт часы AmazFit <GrFormNextLink />
                 </a>
