@@ -109,16 +109,7 @@
   transform: translateY(-1.5px);
 }
 
-@media (max-width: 1070px) {
-  #footer {
-    margin-top: 280px;
-  }
-}
-
 @media (max-width: 900px) {
-  #footer {
-    margin-top: 200px;
-  }
   .footer-wrapper {
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
@@ -127,9 +118,6 @@
 }
 
 @media (max-width: 700px) {
-  #footer {
-    margin-top: 200px;
-  }
   .footer-wrapper {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
@@ -172,19 +160,12 @@
 
 @media (max-width: 500px) {
   #footer {
-    margin-top: 20px;
     padding: 40px 0 20px;
   }
 }
 
 @media (max-width: 400px) {
-  #footer {
-    margin-top: 0;
-  }
-
   .footer-contacts-links a {
     font-size: 14px;
   }
 }
-
-
