@@ -109,6 +109,7 @@
   transform: translateY(-1.5px);
 }
 
+/* Responsive */
 @media (max-width: 900px) {
   .footer-wrapper {
     grid-template-columns: repeat(3, 1fr);

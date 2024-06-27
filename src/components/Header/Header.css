@@ -65,6 +65,7 @@
   font-size: 20px;
 }
 
+/* Responsive */
 @media (max-width: 1070px) {
   .menubar {
     display: flex;

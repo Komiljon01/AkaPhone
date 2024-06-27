@@ -1,6 +1,8 @@
 import "./Footer.css";
-import logo from "../../assets/images/logo.svg";
 import { Link } from "react-router-dom";
+
+// Images
+import logo from "../../assets/images/logo.svg";
 import facebook from "../../assets/images/facebook.png";
 import telegram from "../../assets/images/telegram.png";
 import instagram from "../../assets/images/instagram.png";

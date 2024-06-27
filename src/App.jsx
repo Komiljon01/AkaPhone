@@ -1,10 +1,14 @@
 import "./App.css";
+
+// React Router Dom
 import {
   createBrowserRouter,
   createRoutesFromElements,
   RouterProvider,
   Route,
 } from "react-router-dom";
+
+// Components
 import RootLayout from "./layouts/RootLayout";
 import Home from "./pages/Home";
 import Details from "./components/Details/Details";

@@ -1,6 +1,8 @@
-import { Carousel } from "antd";
 import "./Showcase.css";
+import { Carousel } from "antd";
 import { GrFormNextLink } from "react-icons/gr";
+
+// Images
 import amazfitWatch1 from "../../assets/images/amazfit-watch1.png";
 import amazfitWatch2 from "../../assets/images/amazfit-watch2.png";
 import amazfitWatch3 from "../../assets/images/amazfit-watch3.png";

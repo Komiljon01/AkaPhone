@@ -1,11 +1,14 @@
 import "./Header.css";
-import { Flex } from "antd";
+
+import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { Flex } from "antd";
+
+// Icons and Images
 import logo from "../../assets/images/logo.svg";
 import { LuShoppingBag } from "react-icons/lu";
 import { RiMenuFill } from "react-icons/ri";
 import { IoMdClose } from "react-icons/io";
-import { useState } from "react";
 
 function Header() {
   const [openMenu, setOpenMenu] = useState(false);

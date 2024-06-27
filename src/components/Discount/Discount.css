@@ -119,6 +119,7 @@
   right: -2.5px !important;
 }
 
+/* Responsive */
 @media (max-width: 1070px) {
   #discount {
     margin-top: 200px;

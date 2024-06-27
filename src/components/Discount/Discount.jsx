@@ -1,9 +1,9 @@
 import "./Discount.css";
-import { MdAddShoppingCart } from "react-icons/md";
 import uuid4 from "uuid4";
-
 import discountProducts from "../../data/dicountProducts";
 
+// Icons and Images
+import { MdAddShoppingCart } from "react-icons/md";
 import saleLayer from "../../assets/images/sale_bg.png";
 
 // Import Swiper React components
